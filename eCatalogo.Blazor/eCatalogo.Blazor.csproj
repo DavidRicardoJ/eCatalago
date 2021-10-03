@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eCatalago.Data\eCatalago.Data.csproj" />
+    <ProjectReference Include="..\eCatalogo.Core\eCatalogo.Core.csproj" />
+    <ProjectReference Include="..\eCatalogo.UseCases\eCatalogo.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
